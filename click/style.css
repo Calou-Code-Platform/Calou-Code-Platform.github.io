@@ -1,0 +1,84 @@
+.body{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.top{
+    /* 佔滿全寬 */
+    width: 100%;
+
+    /* 排版變成 flex */
+    display: flex;
+    /* 宣告為同一列 */
+    flex-direction: row;
+    /* 垂直居中 */
+    align-items: center;
+    /* 水平居中 */
+    justify-content: center;
+
+    /* 字體大小統一 (20px) */
+    font-size: 20px;
+}
+
+.mid{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    /* 間距 */
+    gap: 5px;
+
+    font-size: 25px;
+}
+
+.btm{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.add_btn{
+    font-size: 35px;
+}
+
+.btn{
+    /* 邊框 */
+    border: 0;
+
+    /* 背景顏色 */
+    background-color: rgb(255, 150, 200);
+
+    /* 更改屬標樣式 */
+    cursor: pointer;
+
+    /* 動畫速度 */
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(245, 140, 190);
+}
+
+.btn:active{
+    background-color: rgb(205, 100, 150);
+}
+
+.youmoney{
+    /* 讓寬度符合自己的大小 */
+    width: fit-content;
+
+    /* 強制把 margin(外距) 關掉 */
+    margin: 0;
+
+    /* 不換行 */
+    white-space: nowrap;
+}

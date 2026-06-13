@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+
+        <title>點擊遊戲</title>
+    </head>
+    <body class="body">
+        <div class="top">
+            <p class="youmoney">你的金錢:</p>
+            <output id="money">0</output>
+        </div>
+        <div class="mid">
+            <button class="btn" onclick="buyUser1money()">點我購買手動+1$ / 5$</button>
+            <button class="btn" onclick="buyAuto1money()">點我購買每秒鐘+1$ / 20$</button>
+            <button class="btn" onclick="buyAuto10money()">點我購買每秒鐘+10$ / 100$</button>
+        </div>
+        <div class="btm">
+            <button class="btn add_btn" onclick="earn()">點我+<output id="click_money">1</output></button>
+        </div>
+    </body>
+</html>
